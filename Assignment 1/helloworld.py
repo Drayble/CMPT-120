@@ -5,9 +5,11 @@
 
 
 def main():
-
-
-
+    print("Hello World!")
+    col = "silver"
+    print("My favorite color is: ", col)
+    bday = 722004
+    print("My birthday is: ", bday) 
     
     
     
