@@ -6,18 +6,10 @@
 
 def main():
     print("Hello World!")
-<<<<<<< HEAD
-    
 
-=======
-    col = "silver"
-    print("My favorite color is: ", col)
-    bday = 722004
-    print("My birthday is: ", bday) 
->>>>>>> 9f4757a34f0c45f8f01b576c1b515258ca2971e2
-    
-    
-    
-    
-    
+    favColor = "silver"
+    print("My favorite color is:", favColor)
+
+    shortBDay = 722004
+    print("My birthday is:", shortBDay)
 main()
