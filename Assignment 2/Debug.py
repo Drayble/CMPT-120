@@ -35,7 +35,7 @@ def main():
     elif toCheck <= 3:
         print(str(toCheck), "is less than or equal to 3.")
     else:
-        print(toCheck, "is equal to 4 (between 5 and 3)")
+        print(toCheck, "is equal to 4 (between 5 and 3).")
 
     # Is it really printing the BEST option though? Rearrange these as you see fit
     toCheck = 5
