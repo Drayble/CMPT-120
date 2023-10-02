@@ -56,7 +56,7 @@ def main():
     students = ["Tobi", "Brad", "Tiff", "Oscar", "Tommy", "Kyra", "Matt C", "Morgan", "Haley", "Matt F", "Sydney",
                 "Pedro", "Nathan", "Bryce", "Chris", "Iram", "Pat", "Maddie", "Daniel", "Tomas", "Gabriella", "Ben",
                 "Lucian", "Dean", "Jack", "Natalie", "Athina"]
-    print(students[1])
+    print(students.index("Brad"))
 main()
     
     
