@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803ba4cd-2e60-4c8e-b8ab-b0b67601dd8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assignment 4/Debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/Debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/blackjack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Debug">
+  <component name="RunManager" selected="Python.blackjack">
     <configuration name="Debug (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CMPT-110" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="double_int_list_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CMPT-110" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 2.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 2.5/double_int_list_practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 4/blackjack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.Debug" />
         <item itemvalue="Python.if_else_loop_practice" />
         <item itemvalue="Python.Debug (2)" />
         <item itemvalue="Python.if_else_sign_practice" />
-        <item itemvalue="Python.double_int_list_practice" />
       </list>
     </recent_temporary>
   </component>
