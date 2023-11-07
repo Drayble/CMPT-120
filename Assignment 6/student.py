@@ -1,4 +1,4 @@
-#oo scary
+# oo scary
 '''
 Instructions:
 We're now experts at classes, right?
@@ -24,15 +24,45 @@ create a function because this college is a wacky one- every day they generate a
 (disclosure: obviously there's a very small chance of your generated number matching the student id number. I just want to see that you're generating and comparing properly)
 '''
 
-class student:
-    
-    
-    
-    
-    
-    
+import random
+
+
+class Student:
+    def __init__(self, name, studentID, year, major, gpa):
+        self.name = name
+        self.id = studentID
+        self.year = year
+        self.major = major
+        self.gpa = gpa
+
+    def checkHonors(self):
+        if (self.gpa > 3.5):
+            return "" + str(self.name) + " qualifies for the honors program with a gpa of " + str(self.gpa) + "."
+        else:
+            return "" + str(self.name) + " does not qualify for the honors program due to a gpa of " + str(self.gpa) + "."
+
+    def lotteryForPoverty(self):
+        lucky_num = random.randrange(0, 10000)
+        if (lucky_num == self.id):
+            return "Winner! " + str(self.name) + " gets free lunch!\n"
+        else:
+            return "Loser! No free lunch for " + str(self.name) + " today.\n"
+
+
 def main():
-    #create three students and check if they get free lunch and if they qualify for honors
-    
-    
+    # create three students and check if they get free lunch and if they qualify for honors
+    x = Student("Petunia", 4800, "Sophomore", "Communications", 2.8)
+    y = Student("Enrique", 7883, "Sophomore", "Computer Science", 3.9)
+    z = Student("Bartholomew", 2971, "Sophomore", "Business", 3.5)
+
+    print(x.checkHonors())
+    print(x.lotteryForPoverty())
+
+    print(y.checkHonors())
+    print(y.lotteryForPoverty())
+
+    print(z.checkHonors())
+    print(z.lotteryForPoverty())
+
+
 main()
