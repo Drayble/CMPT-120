@@ -36,7 +36,7 @@ class Student:
         self.gpa = gpa
 
     def checkHonors(self):
-        if (self.gpa > 3.5):
+        if (self.gpa >= 3.5):
             return "" + str(self.name) + " qualifies for the honors program with a gpa of " + str(self.gpa) + "."
         else:
             return "" + str(self.name) + " does not qualify for the honors program due to a gpa of " + str(self.gpa) + "."
