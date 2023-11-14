@@ -7,7 +7,18 @@ hint: there's try/catch statements that i didn't teach but is somewhat straightf
 You can also go much much simpler if you want to, I just want you guys to keep practicing your google skills
 and ofc, if you're stuck, don't hesitate to email
 '''
+
+
 def main():
-    # intInput = int(input("Enter an int (but enter a string to see the error)"))
-    
+    new_input = input("Gimme an int. Right here --> ")
+    new_int = 1
+    try:
+        new_int = int(new_input)
+        print("It worked you goofball! Your value is now set to", new_int)
+    except ValueError:
+        print("You did not enter an int correctly. You are now a certified goofball.")
+    except:
+        print("I don't know what the heck you entered but you caused the special error! Yay you!")
+
+
 main()
